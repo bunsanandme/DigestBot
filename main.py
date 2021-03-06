@@ -2,7 +2,7 @@ import telebot
 import digest
 import pickle
 
-bot = telebot.TeleBot('1582208841:AAHHiRepm69az6FjbqVv48Yp3q0AGIALVSw')
+bot = telebot.TeleBot('<Your API key')
 
 
 @bot.message_handler(commands=['view'])
